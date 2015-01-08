@@ -1,1 +1,1 @@
-rsync -a --delete --exclude=.meteor/local --exclude=.git /vagrant /home
+rsync -a --delete --exclude=.git --exclude=.meteor/local --exclude=.vagrant /vagrant/ /home/vagrant/Microscope
